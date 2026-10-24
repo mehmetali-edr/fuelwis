@@ -31,7 +31,7 @@ export async function GET(request: NextRequest) {
 
   try {
     const response = await fetch(
-      "https://api.openrouteservice.org/v2/directions/driving-car/geojson",
+      "https://api.heigit.org/openrouteservice/v2/directions/driving-car/geojson",
       {
         method: "POST",
         headers: {
